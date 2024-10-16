@@ -5,23 +5,29 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Job Queue Status</title>
   <style>
-    body {
-      font-family: Arial, sans-serif;
-      margin: 0;
-      padding: 0;
-      display: flex;
-      justify-content: center;
-      align-items: center;
-      height: 100vh;
-      background-color: #d8b5e6;
-    }
-    iframe {
-      border: none;
-      width: 100%;
-      height: 90vh; /* Full page view */
-    }
-  </style>
+        body {
+            display: flex;
+            justify-content: center; /* Centers content horizontally */
+            align-items: center; /* Centers content vertically */
+            height: 100vh; /* Makes the body take the full height of the viewport */
+            margin: 0; /* Removes default margin */
+            background-color: #f0f0f0; /* Optional: Change the background color */
+        }
+        .container {
+            text-align: center; /* Centers text within the container */
+            padding: 20px; /* Adds some padding */
+            background-color: #fff; /* Background color for the container */
+            border-radius: 8px; /* Optional: Adds rounded corners */
+            box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1); /* Optional: Adds a shadow effect */
+        }
+    </style>
 </head>
+<body>
+    <div class="container">
+        <!-- Your content from Google Sheets will be displayed here -->
+        <h1>Job Status</h1>
+        <!-- Add your content here -->
+    </div>
 <body>
   <iframe src="https://docs.google.com/spreadsheets/d/e/2PACX-1vSXmaKjUnRNfI-dBcxv02Sb49vraZ-L7B_VxBO6SjraWI4myDRJh-8_ZAYF7BO4WNGzHcRO5eGH7q0_/pubhtml?gid=805623031&single=true"></iframe>
 </body>
